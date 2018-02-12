@@ -6,12 +6,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/loader.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/parallax.css">
+	<link rel="stylesheet" href="css/time.css">
+	<link rel="stylesheet" href="css/team.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/loader.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -24,7 +25,7 @@
 	<div class="loader-section section-right"></div>
 </div>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar" style="background: #212121;">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background: #212121;">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="float: left;margin-left: 5px;">
@@ -34,38 +35,254 @@
 			</button>
 			<a id="home_button" class="navbar-brand" href="index.html"><img src="img/nav.png" style="max-height: 40px;margin-top: -10px;"></a>
 		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
+		<div class="collapse navbar-collapse navbar-right" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="events.html">Events</a></li>
-				<li><a href="team.html">The Team</a></li>
+				<li><a href="team.html">Our Team</a></li>
 				<li><a href="gallery.html">Gallery</a></li>
       		</ul>
 		</div>
 	</div>
 </nav>
 
+<div style="margin-top: 53px;" id="home">
+	<img class="img-responsive center-block" src="img/nav.png" alt="Aarohan Cover Photo" >
+</div>
 
+<div class="text-center" style="margin-bottom: 10px;margin-top: 20px;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on" onselectstart="return false;" 
+ onmousedown="return false;">
 
+<div data-toggle="modal" data-target="#Modal16" style="display: inline-block;">
+<a href="void:javascript(0)" style="text-decoration: none;">
+<time datetime="2018-03-16" class="icon">
+  <em>Friday</em>
+  <strong>March</strong>
+  <span>16</span>
+</time>&nbsp;
+</a>
+</div>
 
+<div data-toggle="modal" data-target="#Modal17" style="display: inline-block;">
+<a href="void:javascript(0)" style="text-decoration: none;">
+<time datetime="2018-03-17" class="icon">
+  <em>Saturday</em>
+  <strong>March</strong>
+  <span>17</span>
+</time>&nbsp;
+</a>
+</div>
 
-<!-- <footer style="background: #263238;color: white;">
-	<div class="container">
-		<div class="row" style="margin: 5px;">
-			<div class="col-md-6 col-sm-12 footerleft ">
-				<i class="fa fa-envelope"></i>&nbsp;&nbsp;sports.secy@iitrpr.ac.in<br>
-				<i class="fa fa-envelope"></i>&nbsp;&nbsp;sports.secy@iitrpr.ac.in
+<div data-toggle="modal" data-target="#Modal18" style="display: inline-block;">
+<a href="void:javascript(0)" style="text-decoration: none;">
+<time datetime="2018-03-18" class="icon">
+  <em>Sunday</em>
+  <strong>March</strong>
+  <span>18</span>
+</time>
+</a>
+</div>
+
+<div id="Modal16" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+				<h4 class="modal-title" id="myModalLabel">Day - 1 (March 16)</h4>
 			</div>
-			<div class="col-md-4 col-sm-12 footerright ">
-				<img src="img/fb.png" height="56px;" style="margin-bottom: 10px;">&nbsp;
-				<img src="img/Instagram.png" height="56px;" style="margin-bottom: 10px;">
+			<div class="modal-body">
+				Match 1<br>
+				Match 2<br>
+				Match 3<br>
+				Match 4<br>
+				Match 5<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="Modal17" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+				<h4 class="modal-title" id="myModalLabel">Day - 2 (March 17)</h4>
+			</div>
+			<div class="modal-body">
+				Match 1<br>
+				Match 2<br>
+				Match 3<br>
+				Match 4<br>
+				Match 5<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="Modal18" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+				<h4 class="modal-title" id="myModalLabel">Day - 3 (March 18)</h4>
+			</div>
+			<div class="modal-body">
+				Match 1<br>
+				Match 2<br>
+				Match 3<br>
+				Match 4<br>
+				Match 5<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<h3 style="color:#2f2f2f;"> Annual Sports Fest,<br> IIT Ropar</h3>
+<img class="img-responsive center-block" src="img/bosaa.png" alt="Aarohan Cover Photo" style="max-height: 400px;">
+<a href="#about"><i class="fa fa-angle-double-down animated" style="color:#d32f2f;font-size: 80px;"></i></a>
+</div>
+
+<div class="parallax hidden-xs">
+</div>
+
+<div id="about" style="background-image: url('img/about.jpg');padding-top: 100px;padding-bottom: 100px;">
+	<div class="container">
+		<h2 align="center" style="color: #212121;">ABOUT AAROHAN</h2>
+		<hr style="width: 300px;font-weight: 1000;color: black;">
+		<div class="row text-center" align="center">
+			<div class="col-sm-12 col-md-12 col-lg-12" style="font-size: 120%;text-align: justify;">
+				Aarohan is the annual sports fest of Indain Institute of Technology, Ropar, one among the most reputed institutes in the country. Since its inception in 2016, Aarohan has unceasingly progressed each year. Spread over a period of three days, Aarohan, IIT Ropar’s flagship sporting fest, is nothing short of a sporty pageant.
+				<br><br>
+				Aarohan attracts a wide spectrum of the youth from all over the north India by providing excellent organisational infrastructure facilities and motivation to enable students achieve the zenith of their respective sports performances. Having witnessed over 400 participants and an impressive start and inaugural by former Hockey Olympian Sandeep Singh in its sophomore edition, the fest has provided students from different colleges and institutes an opportunity to participate and explore.
+				<br><br>
+				The fest incorporates a wide range of outdoor as well as indoor sports activities like cricket, badminton, volleyball, basketball, football, tennis and athletics events. Every year it is our ardent desire to make the fest bigger and better and with the same vision, the 3 days Fest is scheduled to kick start from 16 March 2018. In its third edition, Aarohan’18 promises to take a new avatar and bring up the competition to a whole new level of a competition which encompasses variety of  tournaments with an aim to create synergy in the latest edition of fest.
+				<br><br>
+				Come, feel the adrenaline rush as you battle it out to be crowned the best of the best.
+			</div>
+		</div>
+	</div>
+</div>
+<div class="parallax2 hidden-xs">
+</div>
+
+<div class="center-block">
+	<div class="row" align="center">
+		<div class="col-lg-1"></div>
+		<div class="col-sm-12 col-md-12 col-lg-5"  style="margin: 10px;">
+			<div class="imgview" style="background-color: white;">
+				<div class="image">
+					<div class="overlay">
+						<div class="text">
+							<h3>Sandeep Singh</h3>
+							<h4>Chief Guest @Aarohan '17</h4>
+							<h4 style="margin: 10px;">A former men's hockey captain of India.</h4>
+							<h4 style="margin: 10px;">He was a penalty corner specialist for the team.</h4>
+							<h4 style="margin: 10px;">He currently holds a DSP rank in the Haryana Police.</h4>
+						</div>
+					</div>
+					<img class="img-responsive" src="img/g1.jpg" style="max-height: 400px;">
+				</div>
+				<div class"txt">
+					<h4 class="text-center" style="color: white;">Aarohan '16</h4>
+				</div>
+			</div>
+			<!-- <div class="well">
+				<h3 align="center">Aarohan '17</h3>
+				<img class="img-responsive" src="img/g1.jpg" style="max-height: 400px;">
+				<span style="color: #212121;font-size: 100%;font-weight: 500;">Chief Guest: Sandeep Singh, an ex-captain of the Indian national team.</span>
+			</div> -->
+		</div>
+		<div class="col-sm-12 col-md-12 col-lg-5" style="margin: 10px;">
+			<div class="imgview" style="background-color: white;">
+				<div class="image">
+					<div class="overlay">
+						<div class="text">
+							<h3>Surinder Singh Sodhi</h3>
+							<h4>Chief Guest @Aarohan '16</h4>
+							<h4 style="margin: 10px;">A former men's hockey captain of India.</h4>
+							<h4 style="margin: 10px;">An Arjuna awardee and ex-olympian.</h4>
+							<h4 style="margin: 10px;">He is currently I.G. in Punkab police.</h4>
+						</div>
+					</div>
+					<img class="img-responsive" src="img/g2.jpg" style="max-height: 400px;">
+				</div>
+				<div class"txt">
+					<h4 class="text-center" style="color: white;">Aarohan '16</h4>
+				</div>
+			</div>
+			<!-- <div class="well">
+				<h3 align="center">Aarohan '16</h3>
+				<img class="img-responsive" src="img/g2.jpg" style="max-height: 400px;">
+				<span style="color: #212121;font-size: 100%;font-weight: 500;">Chief Guest: <strong>Surinder Singh Sodhi</strong>, A former men's hockey captain of India. An Arjuna awardee and ex-olympian. He is currently I.G. in Punkab police.</span>
+			</div> -->
+		</div>
+		<div class="col-lg-1"></div>
+	</div>  
+</div>
+</div>
+
+
+
+<footer style="background-color: #212121;color: white;">
+	<div style="padding-left: 20px;padding-right: 20px;">
+		<div class="row" align="center">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 style="color: white">External Links</h3>
+				<p><a href="http://www.iitrpr.ac.in/" style="color:white;">IIT Ropar Homepage</a><br><a href="http://www.iitrpr.ac.in/about-iit" style="color:white;">About IIT Ropar</a><br><a href="http://www.iitrpr.ac.in/location" style="color: white">Reaching IIT Ropar</p></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 style="color: white">Contact Us</h3>
+				<p>Indian Institute of Technology Ropar<br>Ropar-140001<br>Email: sports.secy@iitrpr.ac.in<br>Phone: +91-7307774387</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 style="color: white;">Follow Us</h3>
+				<a href="https://www.facebook.com/aarohan.iitrpr/" target="_blank"><img src="img/fb.png" height="56px;" style="margin-bottom: 10px;"></a>
+				&nbsp;
+				<a href="https://www.instagram.com/aarohan_iitropar/" target="_blank"><img src="img/Instagram.png" height="56px;" style="margin-bottom: 10px;"></a>
 				<br>
 				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Faarohan.iitrpr%2F&width=141&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId" width="141" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 			</div>
 		</div>
 	</div>
-</footer> -->
+	<div style="padding: 10px;">
+		Developed and Mantained by: <a href="http://software-community.github.io/">Software Community, IIT Ropar</a>
+	</div>
+</footer>
 
+<script>
+	$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+$(document).on('click','.navbar-collapse.in',function(e) {
+	if( $(e.target).is('a') ) {
+		$(this).collapse('hide');
+    }
+});
+</script>
 </body>
 </html>

@@ -3,5 +3,5 @@ $(document).ready(function() {
     setTimeout(function(){
         $('body').addClass('loaded');
         $('#navbar').show();
-    }, 2000);
+    }, 3000);
 });
