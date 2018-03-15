@@ -3,6 +3,6 @@ $(document).ready(function() {
     setTimeout(function(){
         $('body').addClass('loaded');
         $('#navbar').show();
-        $('#formModal').modal('show');
-    }, 1500);
+        // $('#formModal').modal('show');
+    }, 500);
 });
